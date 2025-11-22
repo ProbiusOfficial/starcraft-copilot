@@ -1,0 +1,24 @@
+# Core dependencies for screen capture and image processing
+Pillow>=10.0.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# OCR dependencies
+pytesseract>=0.3.10
+easyocr>=1.7.0
+
+# Screen capture libraries
+mss>=9.0.1
+pyautogui>=0.9.54
+
+# GUI and notification
+plyer>=2.1.0
+
+# Data handling
+pandas>=2.0.0
+
+# Configuration management
+pyyaml>=6.0
+
+# Logging
+loguru>=0.7.0
