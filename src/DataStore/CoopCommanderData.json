@@ -1,0 +1,367 @@
+{
+  "commanders": {
+    "Raynor": {
+      "race": "Terran",
+      "difficulty": "Easy",
+      "description": "Jim Raynor deploys a versatile Terran army with powerful orbital command calldowns.",
+      "strengths": ["Mobility", "Versatility", "Economic bonuses"],
+      "weaknesses": ["Vulnerable to air", "Needs good positioning"],
+      "prestiges": {
+        "0": {
+          "name": "Standard",
+          "description": "Balanced playstyle with all abilities"
+        },
+        "1": {
+          "name": "Rough Rider",
+          "description": "Dusk Wings cooldown reduced to 3 minutes. Can deploy anywhere on the map. Dusk Wings uses 6 weaker Banshees.",
+          "playstyle": "Aggressive early game with frequent air strikes"
+        },
+        "2": {
+          "name": "Backwater Sheriff",
+          "description": "Hyperion cooldown reduced to 3 minutes. Can be deployed anywhere. Hyperion has -50% health and attack speed.",
+          "playstyle": "Mobile Hyperion for map control"
+        },
+        "3": {
+          "name": "Lawbringer",
+          "description": "Spider Mines are free and unlimited. Vultures cost +50% minerals.",
+          "playstyle": "Heavy mine-based defense and area denial"
+        }
+      },
+      "key_units": ["Marine", "Medic", "Vulture", "Banshee", "Battlecruiser"],
+      "power_spikes": {
+        "early": "Orbital Command calldowns available immediately",
+        "mid": "Maxed bio army with Medic support",
+        "late": "Battlecruiser calldowns for burst damage"
+      },
+      "tips": {
+        "early": "Use Scanner Sweep and MULE drops liberally - they're free!",
+        "mid": "Keep Marines and Medics together for maximum sustainability",
+        "late": "Save Hyperion and Battlecruiser calldowns for tough objectives"
+      }
+    },
+    "Kerrigan": {
+      "race": "Zerg",
+      "difficulty": "Easy",
+      "description": "Sarah Kerrigan is a powerful hero unit supported by Zerg forces.",
+      "strengths": ["Powerful hero unit", "Strong early game", "Excellent single-target damage"],
+      "weaknesses": ["Hero-dependent", "Vulnerable if Kerrigan dies"],
+      "prestiges": {
+        "0": {
+          "name": "Standard",
+          "description": "Balanced hero and army gameplay"
+        },
+        "1": {
+          "name": "Folly of Man",
+          "description": "Kerrigan can use abilities without energy costs. Kerrigan cannot regenerate life or energy and starts at level 1.",
+          "playstyle": "Glass cannon Kerrigan with unlimited abilities"
+        },
+        "2": {
+          "name": "Malignant Creep",
+          "description": "Creep provides +50% attack speed and +2 armor. Structures cannot spread creep and Kerrigan cannot place Omega Worms.",
+          "playstyle": "Defensive creep-based strategy"
+        },
+        "3": {
+          "name": "Desolate Queen",
+          "description": "Kerrigan starts at level 70. All other units cost double and build 100% slower.",
+          "playstyle": "Pure solo Kerrigan gameplay"
+        }
+      },
+      "key_units": ["Zergling", "Hydralisk", "Mutalisk", "Ultralisk", "Nydus Worm"],
+      "power_spikes": {
+        "early": "Kerrigan at level 5 with Kinetic Blast",
+        "mid": "Kerrigan max level with Ultralisk support",
+        "late": "Omega Worms for instant reinforcement"
+      },
+      "tips": {
+        "early": "Level Kerrigan by killing enemy units - prioritize combat",
+        "mid": "Use Omega Worms for backdoor attacks on objectives",
+        "late": "Immobilization Wave is excellent for defense and attack waves"
+      }
+    },
+    "Artanis": {
+      "race": "Protoss",
+      "difficulty": "Easy",
+      "description": "Artanis commands the Protoss forces with powerful support abilities.",
+      "strengths": ["Free unit warp-ins", "Strong defensive abilities", "No supply cap"],
+      "weaknesses": ["Resource intensive", "Slow early game"],
+      "prestiges": {
+        "0": {
+          "name": "Standard",
+          "description": "Balanced Protoss army with orbital strikes"
+        },
+        "1": {
+          "name": "Valorous Inspirator",
+          "description": "Guardian Shell grants +100% attack speed. Guardian Shell cooldown increased by 60 seconds.",
+          "playstyle": "Aggressive pushes with Guardian Shell"
+        },
+        "2": {
+          "name": "Nexus Legate",
+          "description": "Orbital Assimilators grant +4 gas income. Start with 3 Orbital Assimilators. Cannot train Probes.",
+          "playstyle": "No probe economy, pure gas focus"
+        },
+        "3": {
+          "name": "Arkship Commandant",
+          "description": "All army units warp in via the Spear of Adun for free. Supply Depots cost +100% and provide +2 supply.",
+          "playstyle": "Free unit warps with heavy supply investment"
+        }
+      },
+      "key_units": ["Zealot", "Dragoon", "High Templar", "Archon", "Reaver"],
+      "power_spikes": {
+        "early": "Free Shield Overcharge on units",
+        "mid": "Mass Dragoons with recall for mobility",
+        "late": "Unlimited free unit warp-ins across map"
+      },
+      "tips": {
+        "early": "Use Solar Bombardment to clear early attack waves",
+        "mid": "Dragoons are very cost-effective - mass them",
+        "late": "Save recall for emergency escapes or reinforcements"
+      }
+    },
+    "Swann": {
+      "race": "Terran",
+      "difficulty": "Medium",
+      "description": "Rory Swann specializes in mechanical units and defensive structures.",
+      "strengths": ["Strong defense", "Powerful late game", "Economic bonuses"],
+      "weaknesses": ["Weak early game", "Slow army", "Vulnerable without defense"],
+      "prestiges": {
+        "0": {
+          "name": "Standard",
+          "description": "Balanced mechanical army with turrets"
+        },
+        "1": {
+          "name": "Heavy Weapons Specialist",
+          "description": "Laser Drill gains +5 range and attacks 30% faster. Cannot build Flaming Betties or Missile Turrets.",
+          "playstyle": "Pure Laser Drill focus"
+        },
+        "2": {
+          "name": "Grease Monkey",
+          "description": "Combat units heal to full after not taking damage. Immortality Protocol cooldown increased by 60 seconds.",
+          "playstyle": "Sustainable army with auto-healing"
+        },
+        "3": {
+          "name": "Heavy Industry",
+          "description": "Factory Units gain +2 armor and +25% life. Can construct 2 units simultaneously. Gas Harvesters cost +25 minerals.",
+          "playstyle": "Tank-focused composition"
+        }
+      },
+      "key_units": ["Hellbat", "Goliath", "Siege Tank", "Thor", "Science Vessel"],
+      "power_spikes": {
+        "early": "Turret defense line established",
+        "mid": "Mass Goliaths with Science Vessel support",
+        "late": "Laser Drill dominates objectives"
+      },
+      "tips": {
+        "early": "Build turret defenses before expanding",
+        "mid": "Concentrate Beam on priority targets",
+        "late": "Position Laser Drill for maximum objective coverage"
+      }
+    },
+    "Zagara": {
+      "race": "Zerg",
+      "difficulty": "Easy",
+      "description": "Zagara focuses on overwhelming enemies with expendable Zerg forces.",
+      "strengths": ["Free units", "Fast expanding", "Strong map presence"],
+      "weaknesses": ["Weak late game scaling", "Limited army quality"],
+      "prestiges": {
+        "0": {
+          "name": "Standard",
+          "description": "Free Zerg units with timed life"
+        },
+        "1": {
+          "name": "Scourge Queen",
+          "description": "Zagara can summon Scourge with new ability. Zagara cannot use Baneling Barrage.",
+          "playstyle": "Air-focused with Scourge support"
+        },
+        "2": {
+          "name": "Mother of Constructs",
+          "description": "Roach and Hydralisk variants attack 50% faster. Cannot use Infested Drop and Hunter Killer calldowns.",
+          "playstyle": "Pure roach/hydra composition"
+        },
+        "3": {
+          "name": "Apex Predator",
+          "description": "Zagara gains +100% attack speed and can use all abilities without cooldown. Cannot use calldowns or train army units.",
+          "playstyle": "Solo Zagara hero gameplay"
+        }
+      },
+      "key_units": ["Zergling", "Baneling", "Roach", "Hydralisk", "Aberration"],
+      "power_spikes": {
+        "early": "Free Frenzy Zerglings every 30 seconds",
+        "mid": "Mass Scourge for air control",
+        "late": "Sustained pressure with free unit spawns"
+      },
+      "tips": {
+        "early": "Expand aggressively - you get free units anyway",
+        "mid": "Use Roach Drop for backdoor attacks",
+        "late": "Aberrations tank while free units deal damage"
+      }
+    },
+    "Vorazun": {
+      "race": "Protoss",
+      "difficulty": "Medium",
+      "description": "Matriarch Vorazun uses stealth and shadows to confuse enemies.",
+      "strengths": ["Stealth units", "Strong early aggression", "Time Stop ability"],
+      "weaknesses": ["Squishy units", "Energy dependent", "Complex micro"],
+      "prestiges": {
+        "0": {
+          "name": "Standard",
+          "description": "Balanced dark templar and shadow army"
+        },
+        "1": {
+          "name": "Withering Siphon",
+          "description": "Dark Pylons provide +15% attack speed per pylon. Dark Pylons cost +50% and cannot cloak or grant vision.",
+          "playstyle": "Pylon-dense attack speed stacking"
+        },
+        "2": {
+          "name": "Keeper of Shadows",
+          "description": "Shadow Guard duration increased by 100%. Shadow Guard units deal -40% damage.",
+          "playstyle": "Prolonged Shadow Guard support"
+        },
+        "3": {
+          "name": "Withering Terror",
+          "description": "Vorazun gains Fear ability. Black Hole cooldown increased by 120 seconds.",
+          "playstyle": "Fear-based crowd control"
+        }
+      },
+      "key_units": ["Dark Templar", "Stalker", "Corsair", "Dark Archon", "Void Ray"],
+      "power_spikes": {
+        "early": "Cloaked Dark Templar harassment",
+        "mid": "Time Stop for attack wave defense",
+        "late": "Mass Corsairs with disruption web"
+      },
+      "tips": {
+        "early": "Use Dark Templars for early enemy harassment",
+        "mid": "Time Stop is amazing for defense and objectives",
+        "late": "Dark Archons' mind control can turn enemy units"
+      }
+    },
+    "Karax": {
+      "race": "Protoss",
+      "difficulty": "Medium",
+      "description": "Phase-smith Karax excels at building powerful structures and supporting allies.",
+      "strengths": ["Powerful structures", "Strong support", "Excellent defense"],
+      "weaknesses": ["Weak army", "Slow start", "Structure dependent"],
+      "prestiges": {
+        "0": {
+          "name": "Standard",
+          "description": "Structure-focused gameplay"
+        },
+        "1": {
+          "name": "Architect of War",
+          "description": "Chrono Wave affects all structures globally. Chrono Wave grants +100% attack/production speed instead of +50%.",
+          "playstyle": "Global chrono boost focus"
+        },
+        "2": {
+          "name": "Solarite Celestial",
+          "description": "Spear of Adun abilities cost 0 Solarite but have +100% cooldown. Start with 0 Solarite and cannot gain Solarite.",
+          "playstyle": "No solarite management needed"
+        },
+        "3": {
+          "name": "Templar Apparent",
+          "description": "Can build and manage 50 more structures. Structures cost +50% and build 50% slower.",
+          "playstyle": "Maximum structure density"
+        }
+      },
+      "key_units": ["Sentinel", "Energizer", "Colossus", "Immortal", "Carrier"],
+      "power_spikes": {
+        "early": "Solar Efficiency reduces structure costs",
+        "mid": "Chrono Wave accelerates production",
+        "late": "Orbital Strikes and repair beam dominate"
+      },
+      "tips": {
+        "early": "Build defensive structures early",
+        "mid": "Use Chrono Wave before attack waves",
+        "late": "Repair Beam keeps structures and allies alive"
+      }
+    },
+    "Abathur": {
+      "race": "Zerg",
+      "difficulty": "Hard",
+      "description": "Abathur creates the ultimate Zerg through evolution and biomass collection.",
+      "strengths": ["Powerful evolved units", "Excellent late game", "Strong upgrades"],
+      "weaknesses": ["Very slow start", "Complex mechanics", "Biomass dependent"],
+      "prestiges": {
+        "0": {
+          "name": "Standard",
+          "description": "Evolution-focused gameplay"
+        },
+        "1": {
+          "name": "Essence Hoarder",
+          "description": "Biomass abilities can store more stacks. Toxic Nest spawns 4 additional Roachlings per stack. Roachlings life duration and cost increased.",
+          "playstyle": "Biomass stacking focus"
+        },
+        "2": {
+          "name": "Evolutionary Abomination",
+          "description": "Ultimate Evolutions gain +1000 life and +5 armor. Ultimate Evolutions respawn timer increased by 100%.",
+          "playstyle": "Tank ultimate evolutions"
+        },
+        "3": {
+          "name": "Bone Appetite",
+          "description": "Units and structures can be consumed for 50 biomass. Consuming units and structures costs 50 biomass.",
+          "playstyle": "Flexible biomass management"
+        }
+      },
+      "key_units": ["Roach", "Swarm Host", "Mutalisk", "Ultralisk", "Leviathan"],
+      "power_spikes": {
+        "early": "Toxic Nests for defense",
+        "mid": "Evolved Roaches and Swarm Hosts",
+        "late": "Ultimate Evolutions dominate"
+      },
+      "tips": {
+        "early": "Collect biomass from every kill",
+        "mid": "Evolve units progressively",
+        "late": "Ultimate Evolutions can solo objectives"
+      }
+    }
+  },
+  "synergies": {
+    "aggressive_early": ["Raynor", "Kerrigan", "Zagara", "Vorazun"],
+    "defensive": ["Swann", "Karax", "Stukov"],
+    "economic": ["Raynor", "Swann", "Artanis"],
+    "mobile": ["Raynor", "Zagara", "Dehaka"],
+    "hero_focused": ["Kerrigan", "Alarak", "Dehaka"]
+  },
+  "upgrade_priorities": {
+    "standard": {
+      "tier1": ["Attack +1", "Armor +1"],
+      "tier2": ["Attack +2", "Armor +2"],
+      "tier3": ["Attack +3", "Armor +3"]
+    },
+    "bio_focus": {
+      "priority": ["Infantry Attack", "Infantry Armor", "Stim Packs", "Combat Shields"]
+    },
+    "mech_focus": {
+      "priority": ["Vehicle Attack", "Vehicle Armor", "Vehicle Speed Boost"]
+    },
+    "air_focus": {
+      "priority": ["Air Attack", "Air Armor", "Air Speed"]
+    }
+  },
+  "amon_attack_patterns": {
+    "standard_waves": {
+      "wave_1": {
+        "time": "4:00",
+        "composition": "Light units (Zerglings, Marines, Zealots)",
+        "threat": "Low",
+        "defense": "Basic army should handle"
+      },
+      "wave_2": {
+        "time": "8:00",
+        "composition": "Mixed army with some heavy units",
+        "threat": "Medium",
+        "defense": "Need proper composition and positioning"
+      },
+      "wave_3": {
+        "time": "12:00",
+        "composition": "Heavy units and tech units",
+        "threat": "High",
+        "defense": "Strong army with upgrades needed"
+      },
+      "wave_4": {
+        "time": "16:00",
+        "composition": "Elite units and massive army",
+        "threat": "Very High",
+        "defense": "Maxed army with abilities ready"
+      }
+    }
+  }
+}

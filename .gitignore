@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+sc2_copilot.log
+screen_capture.log
+ocr_analysis.log
+reminder_engine.log
+
+# Test captures and temporary files
+test_capture.png
+*.tmp
+/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.png
+*.jpg
+*.jpeg
+!assets/*.png
+!assets/*.jpg
