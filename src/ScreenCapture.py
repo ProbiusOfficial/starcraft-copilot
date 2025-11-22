@@ -24,7 +24,11 @@ class ScreenCapture:
     def __init__(self):
         """Initialize the screen capture engine."""
         self.sct = mss.mss()
-        self.monitor = self.sct.monitors[1]  # Primary monitor
+        # Use primary monitor if available, otherwise use monitor 0 (all monitors)
+        if len(self.sct.monitors) > 1:
+            self.monitor = self.sct.monitors[1]  # Primary monitor
+        else:
+            self.monitor = self.sct.monitors[0]  # All monitors
         logger.info(f"Screen capture initialized. Monitor: {self.monitor}")
         
         # Define common SC2 UI regions (relative coordinates, will be adjusted based on resolution)

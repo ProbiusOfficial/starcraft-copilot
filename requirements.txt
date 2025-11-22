@@ -5,7 +5,7 @@ opencv-python>=4.8.0
 
 # OCR dependencies
 pytesseract>=0.3.10
-easyocr>=1.7.0
+# easyocr>=1.7.0  # Alternative OCR engine (optional, for future use)
 
 # Screen capture libraries
 mss>=9.0.1

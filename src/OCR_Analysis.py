@@ -9,6 +9,7 @@ and analyzes the extracted text to determine the current game state.
 import cv2
 import numpy as np
 import pytesseract
+import re
 from typing import Dict, Optional, List, Tuple
 from loguru import logger
 
@@ -106,7 +107,6 @@ class OCRAnalysis:
         Returns:
             List[int]: List of extracted numbers
         """
-        import re
         numbers = re.findall(r'\d+', text)
         return [int(n) for n in numbers]
     
@@ -186,7 +186,6 @@ class OCRAnalysis:
         text = self.extract_text(image)
         
         # Game time is typically in MM:SS format
-        import re
         time_match = re.search(r'(\d{1,2}):(\d{2})', text)
         
         if time_match:

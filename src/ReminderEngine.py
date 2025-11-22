@@ -314,7 +314,8 @@ class ReminderEngine:
         try:
             minutes, seconds = map(int, game_time_str.split(':'))
             game_time_seconds = minutes * 60 + seconds
-        except:
+        except (ValueError, AttributeError) as e:
+            logger.warning(f"Failed to parse game time '{game_time_str}': {e}")
             game_time_seconds = 0
         
         # Check supply

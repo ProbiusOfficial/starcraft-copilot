@@ -71,7 +71,6 @@ def main():
             
             # Capture relevant screen regions
             resource_img = screen_capture.capture_named_region('resources')
-            # supply_img = screen_capture.capture_named_region('supply')  # Can use same as resources
             timer_img = screen_capture.capture_named_region('timer')
             
             # Analyze game state (only if captures succeeded)
